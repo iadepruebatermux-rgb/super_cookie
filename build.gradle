@@ -1,0 +1,25 @@
+plugins {
+    id 'fabric-loom' version '1.2.0'
+}
+
+fabric {
+    minecraft {
+        version = "1.19.2"
+        yarn_mappings = "1.19.2+build.5"
+        loader_version = "0.14.8"
+    }
+}
+
+dependencies {
+    modCompile "net.fabricmc:fabric-api:${project.version}"
+}
+
+minecraft {
+    // The mod's target Minecraft version
+    version = "1.19.2"
+  
+    // Indicates the mod's dependencies
+    dependencies = [
+        // Add your dependencies here
+    ]
+}
