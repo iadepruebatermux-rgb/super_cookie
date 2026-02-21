@@ -1,0 +1,1 @@
+{ "schema": "fabric_mod_metadata_v1", "id": "your.mod.id", "version": "1.0.0", "name": "Your Mod Name", "description": "A brief description of your mod.", "authors": ["Your Name"], "contact": { "homepage": "https://yourhomepage.com", "sources": ["https://yourrepo.com"] } }
